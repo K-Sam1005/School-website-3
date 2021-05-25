@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <title>School Website</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar-inverse" style="position: sticky; top: 0; z-index:999">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://www.podareducation.org/school/ahmedabad">Podar International Schol</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#campus_life">Campus Life</a></li>
+                <li><a href="#achievement">Achievements</a></li>
+                <li><a href="#whatsnew">What's New</a></li>
+                <li><a href="#writings">Alumni</a></li>
+                <li><a href="#contactUs">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="announcement">
+        <marquee id="marqueeStyle">Feel free to ask queries on admissions@podar.org</marquee>
+    </div>
+    <iframe width="814" height="458" src="https://www.youtube.com/embed/bj9OxvBN0YY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+    <div class="container">
+
+        <div class="page-header" id="campus_life">
+            <h2 class="text-capitalize">Campus Life</h2>
+
+            <div class="row">
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="data:image/jpeg;base64,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">
+                    <h4 class="text-capitalize"><kbd>Computer Lab</kbd></h4>
+                    <hr>
+                    <p class="text-muted text-left">The age of technology is upon us and it is becoming increasingly difficult for someone to function without a knowledge of computers. At Podar International School, we realize this and have a state-of-the-art computer lab in the school premises. The computer lab is air-conditioned with the adequate number of latest PCs which have all the required software installed. All PCs have a high-speed internet connection. The lab is specially designed to educate the students with the latest technology so that the children get comfortable with technology at a very young age.</p>
+
+                </div>
+
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://www.podareducation.org/Uploads/Gallery/2013-8-12--15-16-2-831_4.jpg">
+                    <h4 class="text-capitalize">
+                        <kbd>School Library</kbd>
+                    </h4>
+                    <hr>
+                    <p class="text-muted text-left">There are well-equipped Science Laboratories, Maths Laboratory and Computer Hub for teachers. The school also has a well-stocked library with books and periodicals.</p>
+                </div>
+
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="data:image/jpeg;base64,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">
+                    <h4 class="text-capitalize"><kbd>School Play Ground</kbd></h4>
+                    <hr>
+                    <p class="text-muted text-left">Our school has a state of the art playground where New Age, as well as traditional sports, are played. We have sports for all age groups so that children can relax and exercise at the same time with a sporting spirit. The school has appointed a trained Physical Training Master to train the children in various indoor games like chess and carrom and outdoor games like football, volleyball, basketball etc. We encourage students to participate in all sports events.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-header" id="achievement">
+            <h2 class="text-capitalize">School Achivements</h2>
+        </div>
+
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_Achievement1">TOP 10 INTERNATIONAL SCHOOLS IN MUMBAI 2019<i class="fa fa-sort-desc"></i></div>
+
+        <div id="school_Achievement1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://podarinternationalschool.com/wp-content/uploads/2019/11/top-10-schools.png" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">TOP 10 INTERNATIONAL SCHOOLS IN MUMBAI 2019</h5>
+                <p>Podar International School has been recognized amongst the Top 10 International Schools in Mumbai by the Hindustan Times Annual Mumbai School Survey 2019 and Times School Survey 2019.</p>
+            </div>
+        </div>
+
+
+        <! -- 2nd -->
+            <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_Achievement2">
+                PIS BAGGED THE TOP 2 POSITION AT THE 'NATIONAL ROUND' FOR THE MAKEX INTERNATIONAL ROBOTICS CHAMPIONSHIP 2019.
+                <i class="fa fa-sort-desc"></i>
+            </div>
+
+            <div id="school_Achievement2" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+
+                    <img src="https://podarinternationalschool.com/wp-content/uploads/2019/11/2nd-place2-1.jpg">
+
+                </div>
+
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                    <h5 class="text-success text-left text-capitalize">PIS BAGGED THE TOP 2 POSITION AT THE 'NATIONAL ROUND' FOR THE MAKEX INTERNATIONAL ROBOTICS CHAMPIONSHIP 2019.</h5>
+                    <p>We are brimming with pride as we share with you that our students have bagged the top 2 positions at the ‘National Round’ for the MakeX International Robotics Championship. They will now represent ‘Team India’ at the International round scheduled to take place in China. Take a bow National Champions!!!!
+
+                        Aarav Parikh and Baseeim Siddique: 1st Position
+                        Prayrit Jain and Aarush Yadav: 2nd Position
+
+                        Congratulations to both the teams from the entire ‘Podar Family’. You’ve made us very proud.</p>
+                </div>
+            </div>
+
+            <! -- 3rd -->
+
+                <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_Achievement3">
+                    Podar’s footballers won the U/14 boy’s category at the Reliance Foundation Football tournament 2019
+                    <i class="fa fa-sort-desc"></i>
+                </div>
+                <div id="school_Achievement3" class="collapse">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+
+                        <img src="https://podarinternationalschool.com/wp-content/uploads/2019/10/Reliance-Foundation-Football-tournament.jpg">
+
+                    </div>
+
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                        <h5 class="text-success text-left text-capitalize">Podar’s footballers won the U/14 boy’s category at the Reliance Foundation Football tournament 2019</h5>
+                        <p>We take pride in sharing with you that our budding footballers won their first match at the Reliance Foundation Football tournament 2019 today, in the U/14 boy’s category. With a score of 3-0, our boy’s claimed victory against the team from Bhakti Vedanta School. The goals were scored by Viraj Sood – 2 and Veer Punamiya – 1. Well Done Boys!!!</p>
+                    </div>
+                </div>
+
+
+                <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="whatsnew">
+                    <h2 class="text-capitalize">What's new</h2>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                        <h4></h4><img src="robotics.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                        <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">ROBOTICS: Students from grade 1 – 12 work collaboratively on STEAM kits that are based on the principles of
+                            AI/IOT/Robotics and learn coding programming (C/ Python / drag and drop) and other relevant computational
+                            skills.
+                            Science. Technology. Engineering. Arts. Mathematics. STEAM is an educational approach to learning that uses
+                            Science, Technology, Engineering, the Arts and Mathematics as access points for guiding student inquiry,
+                            dialogue, critical thinking and work through the creative process.</p>
+                    </li>
+
+                    <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                        <h4></h4><img src="music.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                        <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">Musical Instruments: Students from grade 1- 12 learn/master musical instruments like the Drums,
+                            Guitar, Percussions and Keyboard under the guidance of musical experts. </p>
+                    </li>
+
+                </ul>
+
+
+                <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+                    <h2 class="text-capitalize">Contact Us</h2>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3669.6568177259883!2d72.5883723146216!3d23.109655418867625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x395e83ca9e593e87%3A0x41b01af26414c192!2sPodar%20International%20School%2C%20Behind%20Vitthal%20Complex%2C%20Near%20Trishala%20Complex%20Cross%20road%2C%20New%20C.G.Road%2C%20Chandkheda%2C%20Ahmedabad%2C%20Gujarat%20382424!3m2!1d23.1096666!2d72.5909911!5e0!3m2!1sen!2sin!4v1621357084973!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
+                </div>
+                <div id="details">
+                    <img src="https://i.postimg.cc/RZMSc6hR/sp.png" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+
+                    <h3>Principal name:</h3>
+                    <h4>Mr Sreenarayanan P C</h4>
+                    <div class="contact_1 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                        <a href="mailto:admissions@podar.org?Subject=Query regarding admission">
+                            <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mygmailid@gmail.com</h5>
+                        </a>
+
+                        <a href="https://www.instagram.com/podargroupofschools/">
+                            <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;myinstagramid</h5>
+                        </a>
+
+                        <a href="tel:022 43330000">
+                            <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;022 43330000</h5>
+                        </a>
+                    </div>
+                </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
